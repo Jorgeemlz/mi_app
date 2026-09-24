@@ -1,1 +1,3 @@
-"console.log('App web lista!');" 
+function saludar() {
+  alert("¡Hola yorch! Tu app web está funcionando 🚀");
+}
