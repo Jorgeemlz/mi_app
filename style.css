@@ -1,16 +1,29 @@
 body {
-  font-family: Arial, sans-serif;
-  text-align: center;
-  margin-top: 50px;
-}
-button {
-  padding: 10px 20px;
-  background-color: #007acc;
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(135deg, #007acc, #00c6ff);
   color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-button:hover {
-  background-color: #005f99;
+
+.container {
+  text-align: center;
+}
+
+h1 {
+  font-size: 3em;
+  margin-bottom: 0.2em;
+}
+
+h2 {
+  font-size: 2em;
+  margin-bottom: 0.5em;
+}
+
+p {
+  font-size: 1.2em;
 }
